@@ -10,4 +10,4 @@ add_executable(
         src/aes128.h
         src/keyexpand.c
         src/multiply.c
-)
+        src/inverse.c)
