@@ -9,4 +9,5 @@ add_executable(
         src/main.c
         src/aes128.h
         src/keyexpand.c
+        src/multiply.c
 )
