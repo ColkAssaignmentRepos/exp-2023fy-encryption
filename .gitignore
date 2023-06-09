@@ -51,5 +51,8 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# QtCreator
+cmake-build-debug/
+
 # Ignored for the reasons of copyright
 src/objects/
