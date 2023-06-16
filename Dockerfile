@@ -1,6 +1,9 @@
 # Use an official Ubuntu runtime as a parent image
 FROM ubuntu:18.04
 
+# Set the default shell to bash
+SHELL ["/bin/bash", "-c"]
+
 # Set the working directory
 WORKDIR /work/aes
 
