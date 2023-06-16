@@ -6,6 +6,7 @@ set(CMAKE_C_STANDARD 17)
 add_executable(
         exp_2023fy_encryption
 
+        src/main.c
         src/aes128.h
         src/keyexpand.c
         src/multiply.c
